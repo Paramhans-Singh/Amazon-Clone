@@ -1,0 +1,76 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /* these two lines are for the flex items in a line  */
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* padding-right: 20px; */
+}
+
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0px 20px;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+  /*  flex 1 puri space le lega for the navbar  */
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header_SearchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_options {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+/* nav ke nadar bhi flex and then uske optins ke andar bhi flex karna hai */
+
+.header_optionOne {
+  font-size: 10px;
+}
+.header_optionTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header_optionThree {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_basketcount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
