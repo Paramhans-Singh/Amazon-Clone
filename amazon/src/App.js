@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./component/Header";
 import Home from "./component/Home";
+import Checkout from "./component/Checkout";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -8,14 +9,16 @@ function App() {
     //  BEM convention
     <Router>
       <div className="app">
+        <Header />
+        {/* common element outside the routes switch*/}
+
         <Routes>
           {/* Checkout Page Routes */}
           <Route
             path="/checkout"
             element={
               <>
-                <Header />
-                <p>I am Checkout Page</p>
+                <Checkout />
               </>
             }
           />
@@ -25,7 +28,6 @@ function App() {
             path="/"
             element={
               <>
-                <Header />
                 <Home />
               </>
             }

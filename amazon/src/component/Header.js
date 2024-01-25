@@ -2,14 +2,17 @@ import React from "react";
 import "../styles/header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header">
-      <img
-        className="header_logo"
-        src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg"
-      />
+      <Link to="/">
+        <img
+          className="header_logo"
+          src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg"
+        />
+      </Link>
 
       <div className="header_search">
         <input className="header_searchInput" type="text" />
@@ -30,10 +33,12 @@ function Header() {
           <span className="header_optionTwo">Prime</span>
         </div>
 
-        <div className="header_optionBasket">
-          <ShoppingBasketIcon />
-          <span className="header_optionThree header_basketcount">0</span>
-        </div>
+        <Link to="/checkout">
+          <div className="header_optionBasket">
+            <ShoppingBasketIcon />
+            <span className="header_optionThree header_basketcount">0</span>
+          </div>
+        </Link>
       </div>
     </div>
   );
