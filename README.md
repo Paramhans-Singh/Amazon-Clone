@@ -1,10 +1,13 @@
 # Amazon Clone Project 🌐
 
 Embark on a retail adventure with this Amazon Clone, an e-commerce platform crafted with React JS! 🚀 Seamlessly integrated with Stripe, it ensures secure and hassle-free payment transactions. Elevate the user experience with Google Auth0 for robust authentication, offering a secure login environment. The application's visual appeal is heightened through carefully designed CSS, while JavaScript adds dynamic functionalities. Immerse yourself in a comprehensive and user-friendly e-commerce experience, where React JS, Stripe, Google Auth0, CSS, and JavaScript converge to create a powerful and engaging platform. Happy shopping! 🛍️✨  
+<br>
 
 If you find the project interesting, consider giving the repository a star⭐. Check out the YouTube demo [here](link).
+<br>
+<br>
 
-# 🚀 Key Features are:
+## 🚀 Key Features are:
 
 1️⃣ **User Accounts and Login Page 👨👨**
    - Securely manage user authentication.
@@ -20,10 +23,10 @@ If you find the project interesting, consider giving the repository a star⭐. C
 
 5️⃣ **Order History Page 📖**
    - Review and track past purchases for insights.
+<br>
+<br>
 
-
-🛠️ **Tools & Technologies:**
-    ## Technologies Used
+ ## 🛠️ Tools & Technologies:
 
 - **React JS:**
   - Empower your user interface with React JS, a powerful library for building dynamic and interactive web applications.
