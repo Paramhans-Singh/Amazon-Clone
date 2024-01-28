@@ -7,7 +7,7 @@ If you find the project interesting, consider giving the repository a star⭐. C
 <br>
 <br>
 
-## 🚀 Key Features are:
+## 🚀 Key Features:
 
 1️⃣ **User Accounts and Login Page 👨👨**
    - Securely manage user authentication.
